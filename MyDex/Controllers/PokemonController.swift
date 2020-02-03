@@ -23,7 +23,6 @@ class PokemonController {
         var allPokemonURL = baseURL.appendingPathComponent("pokemon")
         allPokemonURL.appendPathComponent(search)
         
-        
         URLSession.shared.dataTask(with: allPokemonURL) { (data, _, error) in
             if let error = error {
                 NSLog("Error fetching Pokemon: \(error)")
