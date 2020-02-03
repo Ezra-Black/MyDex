@@ -58,4 +58,5 @@ struct Types: Codable, Equatable {
 
 struct Sprites: Codable, Equatable {
     let frontDefault: String
+//    let backDefault: String
 }
